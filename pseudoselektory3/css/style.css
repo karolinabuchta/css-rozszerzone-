@@ -1,0 +1,35 @@
+a{
+	font-size: 3em;
+}
+
+a[title] {
+	color: red;
+}
+
+a[title="Link 5"] {
+	color: green;
+}
+
+
+/*w kolorze będą te ktore maj atrybut link*/
+
+a[title~="Link"] {
+	color: yellow;
+}
+
+
+/*tylko linki z ciągiem znakow .pl*/
+
+a[href*=".pl"] {
+	color: orange;
+}
+
+/*tylko tytuł zaczynający się od T będzie miał kolor*/
+
+a[title^="T"] {
+	color: blueviolet;
+}
+
+a[href$=".com"] {
+	color: palegreen;
+}

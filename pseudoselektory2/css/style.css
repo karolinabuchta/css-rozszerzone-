@@ -69,6 +69,8 @@ div > p:only-child {
 	background-color: red;
 }  
 
+/*pokazuje nam co ile zmienić kolor*/ 
+
 .list-item:nth-child(3n + 2) {
 	background-color: skyblue;
 } 
