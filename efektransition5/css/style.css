@@ -1,0 +1,40 @@
+/*powiększanie bryły wraz z kolorem*/
+
+.square {
+	height: 150px;
+	width: 150px;
+	transition: background-color .5s ease-in, all 2s linear;
+	 margin: auto;
+}
+
+.square {
+	 margin: auto;
+}
+
+#square1 {
+	background-color: red;
+}
+
+#square1:hover {
+	background-color: red;
+	width: 300px;
+}
+
+#square2 {
+	background-color: blue;
+}
+
+#square2:hover {
+	background-color: blue;
+	height: 300px;
+}
+
+#square3 {
+	background-color: green;
+}
+
+#square3:hover {
+	background-color: green;
+	width: 300px;
+	height: 300px;
+}

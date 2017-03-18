@@ -1,0 +1,19 @@
+body {
+	background-color: beige;
+	height: 3000px;
+}
+
+.background { 
+height: 600px;
+margin: auto;
+	/*musimy wrocić do folderu wyrzej*/
+/*background-image: url(../img/Truskawka%20.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;*/
+
+	background: #fff 
+		url(../img/Truskawka%20.jpg) center cover no-repeat;
+	
+	background-size: cover;
+}
