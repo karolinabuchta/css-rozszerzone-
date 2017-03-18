@@ -1,0 +1,74 @@
+a{
+	display: block;
+	font-size: 3em;
+}
+
+a#link-1:link {
+	color: red;
+}
+
+a#link-2:visited {
+	color: green;
+}
+
+a#link-3:hover {
+	color: orange;
+	border-color: aqua;
+}
+
+a#link-4:active {
+	color: magenta;
+}
+
+/*w momencie jak będziemy na danym elemancie to zmienia kolor */
+a#link-5:focus {
+	color: yellow;
+}
+
+
+/* okno zmienia kolor jak jest aktywne*/
+input:focus {
+	background-color: yellow;
+}
+
+/* sprawdź */
+#p1:target {
+	color: fuchsia;
+		
+}
+
+
+p:lang(en) {
+	font-weight: 800;
+}
+
+p:lang(pl) {
+	font-weight: 200;
+}
+
+.list-item:first-child {
+	background-color: aqua;
+}
+
+.list-item:last-child {
+	background-color: burlywood;
+}   
+
+div > p:only-child {
+	color: blue;
+}
+
+/*odd nieparzyste*/
+.list-item:nth-child(odd) {
+	background-color: pink;
+}  
+
+/*jak dajemy cyfrę robi nam się w kolrze jedo*/
+
+.list-item:nth-child(7) {
+	background-color: red;
+}  
+
+.list-item:nth-child(3n + 2) {
+	background-color: skyblue;
+} 
